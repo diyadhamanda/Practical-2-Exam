@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body>
+    <div class="main">
+        <form method="post">
+            <h2>CONTACT ME</h2>
+            <label for="">First Name</label>
+            <input type="text" name="Username" placeholder="Enter Your First name">
+            <label for="">Last Name </label>
+            <input type="text" name="lastname" placeholder="Enter Your last name">
+            <label for="">Birthday</label>
+            <input type="date" name="birthdate" placeholder="Enter Your Birth Date">
+            <label for="">Email Id</label>
+            <input type="text" name="lastname" placeholder="Enter Your Email  Id">
+            <label for="password">Password</label>
+		    <input type="password" id="password" required placeholder="please Enter your Password"/>
+            <label for="phone">Phone</label>
+		    <input type="tel" id="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{2}" placeholder="please Enter phone number"/>
+            <label for="">Address</label>
+            <textarea name="address" id="text" cols="40" rows="8" placeholder="Enter your Address ">
+            </textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
